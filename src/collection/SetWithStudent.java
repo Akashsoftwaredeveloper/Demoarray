@@ -20,6 +20,8 @@ public class SetWithStudent {
         StudentHashSet.add(student3);
         StudentHashSet.add(student4);
         StudentHashSet.add(student5);
+        StudentHashSet.remove(student1);
+
 
         for (Student var:StudentHashSet ){
             System.out.println("Printing Parametrised Student "+var.getName());
